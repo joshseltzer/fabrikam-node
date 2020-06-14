@@ -14,3 +14,4 @@ stages:
           deploy:
             steps:
             - script: echo my first deployment on nexxt-inca-env
+            - script: touch touchedFile
